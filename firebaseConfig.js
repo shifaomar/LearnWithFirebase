@@ -10,14 +10,14 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.5.2/firebase
 // messagingSenderId: Sender ID for sending messages via Firebase Cloud Messaging
 // appId: Application ID for the Firebase app, it is unique to this application
 
-// STEP 1: Declare Firebase Environment Variables  
+// STEP 1: Declare Firebase Environment Variables
 const firebaseConfig = {
-    apiKey: "YOUR-OWN-VARIABLE",
-    authDomain: "YOUR-OWN-VARIABLE",
-    projectId: "YOUR-OWN-VARIABLE",
-    storageBucket: "YOUR-OWN-VARIABLE",
-    messagingSenderId: "YOUR-OWN-VARIABLE",
-    appId: "YOUR-OWN-VARIABLE",
+  apiKey: "AIzaSyDvojKw5Fu9fTPPOQnBVYFgb5UMSstzWpQ",
+  authDomain: "learnwithfirebase-16af9.firebaseapp.com",
+  projectId: "learnwithfirebase-16af9",
+  storageBucket: "learnwithfirebase-16af9.appspot.com",
+  messagingSenderId: "166030568877",
+  appId: "1:166030568877:web:15cf619eb472a3b991c524",
 };
 
 // initialze firebase in our project by passing in our environment variables to the `initializeApp` method
